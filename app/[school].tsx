@@ -20,6 +20,8 @@ export default function SchoolScreen() {
       <Text style={styles.school}>{schoolData.name}</Text>
       <Text style={styles.location}>{schoolData.location}</Text>
       <Text style={styles.rank}>Rank: {schoolData.rank}</Text>
+      <Text style={styles.sat}>Average SAT: {schoolData.avgSAT}</Text>
+      <Text style={styles.gpa}>Average GPA: {schoolData.avgGPA}</Text>
     </View>
   );
 }
@@ -50,5 +52,15 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginTop: 5,
     color: '#888',
+  },
+  sat: {
+    fontSize: 16,
+    marginTop: 10,
+    color: '#444',
+  },
+  gpa: {
+    fontSize: 16,
+    marginTop: 4,
+    color: '#444',
   },
 });
