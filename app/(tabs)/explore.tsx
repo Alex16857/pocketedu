@@ -9,7 +9,6 @@ export default function MenuPage() {
       <Link href="/" style={styles.link}><Text style={styles.linkText}>Home (Welcome)</Text></Link>
       <Link href="/(tabs)" style={styles.link}><Text style={styles.linkText}>University List</Text></Link>
       <Link href="/university-of-california-berkeley" style={styles.link}><Text style={styles.linkText}>Sample University Page</Text></Link>
-      <Link href="/not-a-real-page" style={styles.link}><Text style={styles.linkText}>Not Found (404)</Text></Link>
     </View>
   );
 }
